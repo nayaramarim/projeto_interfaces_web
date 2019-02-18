@@ -1,0 +1,15 @@
+Baixar o repositorio do github:
+git clone htttps...
+
+Adicionar aas mudancas feitas na nova versao:
+git add *
+
+Configurar o usuario que fara a alteracao
+
+git config user.email"nayarakrambeck@gmail.com"
+
+Registrar mudancas na nova versao
+git commit -m "msg"
+
+Enviar codigo para reposirotio ou internet
+git push origin master
