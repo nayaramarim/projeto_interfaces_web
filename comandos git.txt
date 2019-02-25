@@ -1,5 +1,5 @@
 Baixar o repositorio do github:
-git clone htttps...
+git clone https://github.com/nayaramarim/projeto_interfaces_web
 
 Adicionar aas mudancas feitas na nova versao:
 git add *
