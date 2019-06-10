@@ -1,0 +1,28 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.dados {
+  background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDFt0Q_melhSBClADENS61piGG2k8-sgEXpf_oWaDhJDyxDRWI);
+  width: 1000px;
+  margin: 0px auto;
+  text-align:center;
+
+}
+
+.titulo{
+  background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDFt0Q_melhSBClADENS61piGG2k8-sgEXpf_oWaDhJDyxDRWI);
+  width: 800px;
+  margin: 0px auto;
+  text-align: center;
+  text-decoration:underline;
+  font-weight: bold;
+
+}
+
+.button{
+  font-style: italic;
+}
+.limpar-float{
+  clear: both;
+}
