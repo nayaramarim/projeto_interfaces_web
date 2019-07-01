@@ -1,0 +1,383 @@
+.contato textarea {
+
+font-size: 17px;
+
+width: 100%;
+
+padding: 15px 20px;
+
+background: #eee;
+
+border: #ccc;
+
+color: #666;
+
+box-sizing: border-box;
+
+margin-bottom: 20px;
+
+outline: none!important;
+
+resize: none;
+
+height: 200px;
+
+border-radius: 2px
+
+}
+
+
+
+.contato .submit {
+
+width: 100%;
+
+cursor: pointer;
+
+background: #F47F35;
+
+color: #fff;
+
+border-radius: 2px!important;
+
+margin-bottom: 0
+
+}
+
+
+
+
+
+body {
+
+overflow-x: hidden
+
+}
+
+ img{
+ width: 290px;
+ height: 170px;
+}
+
+.fundo-slider {
+
+display: flex;
+
+position: absolute;
+
+top: 0;
+
+left: 0;
+
+width: 100%;
+
+overflow: hidden;
+
+z-index: -1
+
+}
+
+
+
+.topo-total {
+
+background-image: url(https://img.freepik.com/vetores-gratis/fundo-colorido-de-aquarela-lindas-flores_52683-12272.jpg?size=626&ext=jpg);
+
+padding: 40px 0
+
+}
+
+
+
+.topo {
+
+width: 1200px;
+
+margin: 0 auto;
+
+display: flex;
+
+flex-wrap: wrap;
+
+justify-content: space-around;
+
+}
+
+
+
+.topo > div {
+
+display: flex;
+
+flex-direction: column;
+
+justify-content: center;
+
+
+
+background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/04/01/21/6758008eca49088.jpg);
+
+}
+
+
+
+.menu li {
+
+display: inline-block;
+
+padding: 5px 10px
+
+}
+
+
+
+.menu li a {
+font: 22px fantasy;
+font-style: oblique;
+color: #fff
+
+}
+
+
+
+.rodape {
+
+width: 1200px;
+
+margin: 0 auto;
+
+display: flex;
+
+flex-wrap: wrap;
+
+align-items: center;
+
+justify-content: space-around
+
+}
+
+
+
+.rodape > div {
+
+padding: 20px 0;
+
+font: 20px calibri;
+
+color: #878787;
+
+display: flex;
+
+align-items: center;
+
+justify-content: center
+
+}
+
+
+.rodape .social img {
+
+padding: 5px
+
+}
+
+
+
+.logo-pw p:last-child a {
+
+display: inline !important;
+
+}
+
+
+
+.logo-pw div p:first-child a {
+
+color: #878787;
+
+font: 12px Helvetica;
+
+margin-top: -8px;
+
+display: block
+
+}
+
+
+
+.logo-pw div {
+
+text-align: left
+
+}
+
+
+
+
+
+.logo-pw div a span {
+
+color: transparent
+
+}
+
+
+<style >.box-01-total { padding: 20px 0px 40px; } .box-01 { display: flex; flex-wrap: wrap; justify-content: space-around; width: 1200px; margin: 0 auto; } .box-01 a:nth-child(1) .item { background: #FA4D60; } .box-01 a:nth-child(2) .item { background: #B570A2; } .box-01 a:nth-child(3) .item { background: #64BCEE; } .box-01 a:nth-child(4) .item { background: #FA824A; } .box-01 a:nth-child(5) .item { background: #5FB6B7; } .box-01 a:nth-child(6) .item { background: #77CCDC; } .box-01 .item { width: 350px; margin: 10px 0px; background: #666; visibility: hidden; } .box-01 .item:hover { transform: scale(1.1); box-shadow: 0px 13px 22px -10px #333; transition: all 0.7s; z-index: 1; } .box-01 .item .img { padding: 0px 20px; } .box-01 .item .img i { margin: 30px 0px; font-size: 70px; color: #fff; transition: all 0.7s; } .box-01 .item:hover .img i { transform: translateX(230px) rotate(-10deg); transition: all 0.7s; } .box-01 .item .titulo { font: 40px 'calibri'; font-weight: lighter; color: #fff; margin-bottom: 10px; padding: 0px 20px; transition: all 0.5s; } .box-01 .item .detalhe { font: 20px 'calibri'; font-weight: lighter; color: #fff; margin-bottom: 20px; padding: 0px 20px; transition: all 0.5s; } .box-01 .item:hover .titulo, .box-01 .item:hover .detalhe { transform: translate(10px, -30px) scale(1.1) rotate(5deg); transition: all 1s; } .box-01 .item .entrar { font: 20px 'calibri'; font-weight: lighter; color: #666; padding: 20px; box-sizing: border-box; text-align: center; width: 100%; background: #eee; position: relative; } .box-01 .item:hover .entrar::before { top: -38px; transition: all 0.5s; } .box-01 .item .entrar::before { content: ''; position: absolute; top: 0px; right: 30px; border: 20px solid transparent; border-bottom-color: #eee; transition: all 0.5s; } .box-02-total { background: url('template/pw-images/fundo-box-02.jpg'); background-size: cover; padding: 60px; } .box-02 { width: 1060px; margin: 0 auto; text-align: center; } .box-02 .titulo { font: 60px 'calibri'; font-weight: lighter; color: #F27F33; margin-bottom: 30px; } .box-02 .conteudo { font: 25px 'calibri'; font-weight: lighter; color: #999; margin-bottom: 30px; } .box-02 .entrar { font: 25px 'calibri'; font-weight: lighter; color: #999; padding: 10px 50px; display: table; margin: 0 auto; border: 2px solid #999; transition: all 0.3s; } .box-02 .entrar:hover { background: #999; color: #f8f8f8; transition: all 0.3s; } .box-03-total { padding: 40px 0px 0px; } .box-03 { width: 1200px; margin: 0 auto; text-align: center; } .box-03 > .titulo { font: 50px 'calibri'; font-weight: lighter; color: #F27F33; margin-bottom: 30px; } .box-03 .box { display: flex; flex-wrap: wrap; justify-content: space-around; } .box-03 .box .item { width: 300px; padding: 40px 20px; box-sizing: border-box; } .box-03 .box .item:hover { background: #f8f8f8; border-radius: 20px 20px 0px 0px; transition: all 0.5s; } .box-03 .box .item:hover .img { transform: rotateY(360deg); transition: all 0.5s; box-shadow: 0px 0px 2px 2px #ccc; background: #ccc; } .box-03 .box .item .img { width: 150px; height: 150px; margin: 0 auto; border-radius: 50%; overflow: hidden; margin-bottom: 20px; } .box-03 .box .item .titulo { font: 25px 'calibri'; font-weight: lighter; color: #666; margin-bottom: 10px; } .box-03 .box .item .data { font: 20px 'calibri'; font-weight: lighter; color: #999; } .box-04-total { background: #333333; padding: 40px; } .box-04 { width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-around; } .box-04 > .titulo { width: 380px; font: 60px 'calibri'; font-weight: lighter; color: #fff; display: flex; align-items: center; } .box-04 .contato { width: 660px; } .mapa { position: relative; display: flex; }
+</style>
+
+
+@media only screen and (max-width:1200px) {
+
+
+
+* {
+
+    max-width: 100%;
+
+    box-sizing: border-box
+
+}
+
+
+
+.conteudo-pages {
+
+    padding: 2%
+
+}
+
+
+
+.menu-total {
+
+    display: block;
+
+    width: 100%
+
+}
+
+
+
+.menu li {
+
+    margin-left: 0;
+
+    margin-right: 0;
+
+    text-align: center
+
+}
+
+
+
+.rodape div {
+
+    width: 100%;
+
+    margin: 20px 0;
+
+    text-align: center
+
+}
+
+.fundo-slider * {
+
+    max-width: unset!important
+
+}
+
+.menu ul{
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+}
+
+
+
+.rodape div{
+
+    margin: 0;
+
+}
+
+
+
+.rodape > div{
+
+    padding: 10px 0;
+
+}
+
+}
+
+
+
+@media only screen and (max-width: 500px){
+
+.topo{
+
+    padding: 5px;
+
+}
+
+.topo-total{
+
+    padding: 10px 0 !important;
+
+}
+
+.menu li{
+
+    padding: 10px !important
+
+}
+
+.box-02-total{
+
+    padding: 10px !important;
+
+}
+
+.box-02 .titulo,
+
+.box-03 .titulo,
+
+.box-04 .titulo{
+
+    font-size: 40px !important;
+
+    margin-bottom: 20px !important
+
+}
+
+.box-04 .contato input{
+
+    width: 100% !important
+
+}
+
+}
+
+</style>
+
+<style>.box-01-total { padding: 20px 0px 40px; } .box-01 { display: flex; flex-wrap: wrap; justify-content: space-around; width: 1200px; margin: 0 auto; } .box-01 a:nth-child(1) .item { background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXLdxqGmLfnhW-C72hHPSgrDwyVpGOnG7QaxslcJ10h0na3W3ojg); } .box-01 a:nth-child(2) .item { background: #B570A2; } .box-01 a:nth-child(3) .item { background: #64BCEE; } .box-01 a:nth-child(4) .item { background: #FA824A; } .box-01 a:nth-child(5) .item { background: #5FB6B7; } .box-01 a:nth-child(6) .item { background: #77CCDC; } .box-01 .item { width: 350px; margin: 10px 0px; background: #666; visibility: hidden; } .box-01 .item:hover { transform: scale(1.1); box-shadow: 0px 13px 22px -10px #333; transition: all 0.7s; z-index: 1; } .box-01 .item .img { padding: 0px 20px; } .box-01 .item .img i { margin: 30px 0px; font-size: 70px; color: #fff; transition: all 0.7s; } .box-01 .item:hover .img i { transform: translateX(230px) rotate(-10deg); transition: all 0.7s; } .box-01 .item .titulo { font: 40px 'calibri'; font-weight: lighter; color: #fff; margin-bottom: 10px; padding: 0px 20px; transition: all 0.5s; } .box-01 .item .detalhe { font: 20px 'calibri'; font-weight: lighter; color: #fff; margin-bottom: 20px; padding: 0px 20px; transition: all 0.5s; } .box-01 .item:hover .titulo, .box-01 .item:hover .detalhe { transform: translate(10px, -30px) scale(1.1) rotate(5deg); transition: all 1s; } .box-01 .item .entrar { font: 20px 'calibri'; font-weight: lighter; color: #666; padding: 20px; box-sizing: border-box; text-align: center; width: 100%; background: #eee; position: relative; } .box-01 .item:hover .entrar::before { top: -38px; transition: all 0.5s; } .box-01 .item .entrar::before { content: ''; position: absolute; top: 0px; right: 30px; border: 20px solid transparent; border-bottom-color: #eee; transition: all 0.5s; } .box-02-total { background-image: url(http://guiadaregiao.com/custom/domain_1/image_files/706_photo_7842.jpg); background-size: cover; padding: 60px; } .box-02 { width: 1060px; margin: 0 auto; text-align: center; } .box-02 .titulo { font: 60px 'calibri'; font-weight: lighter; color: #F27F33; margin-bottom: 30px; } .box-02 .conteudo { font: 25px 'calibri'; font-weight: lighter; color: #999; margin-bottom: 30px; } .box-02 .entrar { font: 25px 'calibri'; font-weight: lighter; color: #999; padding: 10px 50px; display: table; margin: 0 auto; border: 2px solid #999; transition: all 0.3s; } .box-02 .entrar:hover { background: #999; color: #f8f8f8; transition: all 0.3s; } .box-03-total { padding: 40px 0px 0px; } .box-03 { width: 1200px; margin: 0 auto; text-align: center; } .box-03 > .titulo { font: 50px 'calibri'; font-weight: lighter; color: #F27F33; margin-bottom: 30px; } .box-03 .box { display: flex; flex-wrap: wrap; justify-content: space-around; } .box-03 .box .item { width: 300px; padding: 40px 20px; box-sizing: border-box; } .box-03 .box .item:hover { background: #f8f8f8; border-radius: 20px 20px 0px 0px; transition: all 0.5s; } .box-03 .box .item:hover .img { transform: rotateY(360deg); transition: all 0.5s; box-shadow: 0px 0px 2px 2px #ccc; background: #ccc; } .box-03 .box .item .img { width: 150px; height: 150px; margin: 0 auto; border-radius: 50%; overflow: hidden; margin-bottom: 20px; } .box-03 .box .item .titulo { font: 25px 'calibri'; font-weight: lighter; color: #666; margin-bottom: 10px; } .box-03 .box .item .data { font: 20px 'calibri'; font-weight: lighter; color: #999; } .box-04-total { background-image:url(https://img.myloview.com.br/fotomurais/fundo-verde-claro-com-plantas-tropicais-teste-padrao-sem-emenda-do-vetor-exotico-com-folhas-de-palmeira-de-phoenix-400-87151840.jpg); padding: 40px; } .box-04 { width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-around; } .box-04 > .titulo { width: 380px; font: 60px 'calibri'; font-weight: lighter; color: #fff; display: flex; align-items: center; } .box-04 .contato { width: 660px; } .mapa { position: relative; display: flex; }</style>
+
+<link rel="stylesheet" href="pw-font-awesome/css/all.css">
+
+<style>
+
+    .logo-pw a {
+
+        text-align: center;
+
+        padding-top: 10px;
+
+        display: block;
+
+    }
+
+</style>
